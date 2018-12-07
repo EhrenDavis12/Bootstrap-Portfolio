@@ -40,28 +40,10 @@ footer{
   
 } 
 
-/* .header_bar{
-  height: 80px;
-  background-color: var(--header_bkg_color);
-  border-bottom: 5px solid var(--header_border_color);
-} */
-
-/* .header_bar_hidden{
-  height: 80px;
-  margin: auto;
-  text-align: center;
-  background-color: var(--header_bkg_color);
-  width: var(--work_space_width);
-} */
-
 .navbar-brand{
   background-color: var(--main_color);
   font-family: var(--header_fonts);
-  color: var(--header_bkg_color);/* 
-  margin-top: 0%;
-  padding: 10px;
-  padding-top: 22px;
-  padding-bottom: 22px; */
+  color: var(--header_bkg_color);
 }
 
 .nav-item{
@@ -116,32 +98,13 @@ footer{
 }
 
 .card{
-  margin: auto;
+  margin: 1em;
 }
 
 .row {
-  margin: 10px
+  margin: 10px;
 }
 
-/*
-
-div[class^="col-"] {
-  border-style: solid;
-  border-width: 2px;
+.highlight{
+  background-color: var(--main_color);
 }
-
-div[class^="col-lg-"] {
-  background-color: red;
-}
-
-div[class^="col-md-"] {
-  background-color: green;
-}
-
-div[class^="col-sm-"] {
-  background-color: yellow;
-}
-
-div[class*="offset-"] {
-  border-color: blue;
-} */
